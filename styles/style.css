@@ -1,7 +1,37 @@
 @charset "UTF-8";
 
+/*RESET CSS*/
 *{
     padding: 0px;
     margin: 0px;
 }
 
+/*CONFIGURAÇÕES HTML e BODY*/
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url(../midia/imagens/fundo-madeira.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*CONFIGURAÇÕES MAIN*/
+main {
+    height: 100vh;
+    position: relative;
+}
+
+/*CONFIGURAÇÕES DO CELULAR*/
+section#phone {
+    background: url(../midia/imagens/frame-iphone.png) no-repeat ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 627px;
+    width: 311px;
+}
