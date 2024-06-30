@@ -35,3 +35,14 @@ section#phone {
     height: 627px;
     width: 311px;
 }
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+
+    width: 266px;
+    height: 470px;
+}
+
+/*CONFIGURAÇÕES DE NAVEGAÇÃO*/
